@@ -1,0 +1,41 @@
+<aura:component >
+    <aura:attribute name="FirstName" type="String"  default="Marc Benioff" description="used for storing a name"></aura:attribute>
+    <aura:attribute name="Age"       type="Integer" default="52"></aura:attribute>
+    <aura:attribute name="isMale"    type="Boolean" default="true"></aura:attribute>
+    <p>Name of Salesforce CEO is {!v.FirstName}.</p>
+    <p>{!'Name of Salesforce CEO is ' + v.FirstName} </p>
+    <p>{!v.FirstName} is {!v.Age} years old.</p>
+    <p>{!v.FirstName + ' is ' + v.Age + ' years old.'}</p>
+    <p>{!v.FirstName} is male? {!v.isMale}</p>
+    <p>I am proficient in JavaScript</p>
+    <!--
+    <aura:attribute>name="objAccount" type="Account"</aura:attribute>    
+    <aura:attribute>name="objCCustomAccount" type="customObject__c"</aura:attribute> 
+    -->
+    
+    <div style="background-color:black; margin:22px">
+    <p style="color:white">white Text with black background [Inline CSS]</p>
+    <p style="color:yellow">Yellow Text with black Background [Inline CSS]</p>              
+    </div>
+              
+	<h1>Lightening Component Tut</h1>
+    <p>sfdcmonkey.com</p>
+    <p>post by: me :) </p>
+    
+    
+<!--Select TOP LEVEL Elements-->
+    <h1>This is top level heading</h1>
+    <p>This is top level Paragraph elements</p>
+     
+  <!--Nested level Wrap in DIV-->
+    <div>
+      <h1>This is nested level (wrap in div) heading</h1>
+      <p>This is nested level (wrap in div) Paragraph elements</p>
+    </div>    
+    <p/>
+    
+    <p id="myName">My Name is Jhon Cena.</p>
+    <p>My Name is roman reigns</p>
+    <p id="myName">My Name is dean ambrose</p>    
+    
+</aura:component>

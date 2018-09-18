@@ -1,0 +1,25 @@
+p.THIS {
+  color:blue;
+  font-weight:bold;  
+}
+
+.divCss.THIS {
+    padding:20px;
+    background-color:yellow;
+}
+
+.THIS H1{
+    color:green;
+    font-size:22px;
+}
+
+.THIS p{
+    color:red;
+    font-weight:lighter;
+}
+
+.THIS#myName {
+    color: White;
+    background-color:black;
+    font-weight: bold;
+}

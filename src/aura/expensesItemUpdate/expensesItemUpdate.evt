@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="Event template">
+    <aura:attribute name="expense" type="Expense__c"/>
+    
+</aura:event>

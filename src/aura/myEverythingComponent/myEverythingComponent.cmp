@@ -1,0 +1,4 @@
+<aura:component >
+	<aura:attribute name="myText" type="String" default="I'll have one with everything"/>
+<ui:outputText value="{!v.myText}" />
+</aura:component>
